@@ -18,40 +18,52 @@ function App() {
         </div>
       </nav>
 
-      <main id="home" className="hero">
-        <p className="greeting">HELLO, I'M</p>
+     
+<main id="home" className="hero">
+  <div className="hero-content">
+    <p className="greeting">HELLO, I'M</p>
 
-        <h1>
-          Parami <span>Gunasekara.</span>
-        </h1>
+    <h1>
+      Parami <span>Gunasekara.</span>
+    </h1>
 
-        <h2>
-          Industrial IT Undergraduate
-          <br />
-          DevOps & Cloud Enthusiast
-        </h2>
+    <h2>
+      Industrial IT Undergraduate
+      <br />
+      DevOps & Cloud Enthusiast
+    </h2>
 
-        <p className="hero-description">
-          Passionate about cloud technologies, automation,
-          and building reliable systems. Currently learning
-          and exploring the world of DevOps.
-        </p>
+    <p className="hero-description">
+      Passionate about cloud technologies, automation,
+      and building reliable systems. Currently learning
+      and exploring the world of DevOps.
+    </p>
 
-        <div className="hero-buttons">
-          <a href="#projects" className="primary-button">
-            Explore My Work
-          </a>
+    <div className="hero-buttons">
+      <a href="#skills" className="primary-button">
+        Explore My Skills
+      </a>
 
-          <a
-            href="https://github.com/ParamiGunasekara"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="secondary-button"
-          >
-            GitHub Profile
-          </a>
-        </div>
-      </main>
+      <a
+        href="https://github.com/ParamiGunasekara"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="secondary-button"
+      >
+        GitHub Profile
+      </a>
+    </div>
+  </div>
+
+  <div className="hero-image-container">
+    <img
+      src="/images/profile.jpeg"
+      alt="Parami Gunasekara"
+      className="hero-image"
+    />
+  </div>
+</main>
+
       
       {/* About Me Section */}
       <section id="about" className="about-section">
