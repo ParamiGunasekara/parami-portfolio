@@ -437,3 +437,55 @@
     height: 200px;
   }
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 100px 7% 60px;
+    min-height: auto;
+  }
+
+  .hero h1 {
+    font-size: clamp(32px, 8vw, 48px);
+  }
+
+  .about-section,
+  .skills-section,
+  .certifications-section,
+  .contact-section {
+    padding: 60px 7%;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 6vw, 40px);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-buttons {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .contact-links {
+    grid-template-columns: 1fr;
+  }
+
+  .certificate-card {
+    padding: 22px;
+  }
+}
