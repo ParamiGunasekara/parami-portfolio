@@ -115,6 +115,113 @@ function App() {
         </div>
       </section>
 
+{/* Certifications Section */}
+<section id="certifications" className="certifications-section">
+  <p className="section-label">MY LEARNING JOURNEY</p>
+
+  <h2 className="section-title">
+    My <span>Certifications.</span>
+  </h2>
+
+  <div className="certifications-grid">
+    <div className="certificate-card">
+      <p className="certificate-category">DEVOPS</p>
+      <h3>DevOps Foundations: Microservices</h3>
+      <p className="certificate-provider">LinkedIn Learning</p>
+      <p className="certificate-date">July 2026</p>
+
+      <a
+        href="/certificates/devops-microservices.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="certificate-button"
+      >
+        View Certificate ↗
+      </a>
+    </div>
+
+    <div className="certificate-card">
+      <p className="certificate-category">KUBERNETES</p>
+      <h3>Kubernetes From 10000 Feet</h3>
+      <p className="certificate-provider">
+        CoDeKu DevOps Academy
+      </p>
+
+      <a
+        href="/certificates/kubernetes-fundamentals.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="certificate-button"
+      >
+        View Certificate ↗
+      </a>
+    </div>
+  </div>
+</section>
+
+{/* Contact Section */}
+<section id="contact" className="contact-section">
+  <p className="section-label">LET'S CONNECT</p>
+
+  <h2 className="section-title">
+    Get In <span>Touch.</span>
+  </h2>
+
+  <p className="contact-description">
+    I'm always interested in learning opportunities,
+    collaborations, and connecting with people in
+    technology. Feel free to reach out!
+  </p>
+
+  <div className="contact-links">
+    <a
+      href="mailto:paramih36@gmail.com"
+      className="contact-card"
+    >
+      <span className="contact-icon">✉</span>
+      <span>Email Me</span>
+    </a>
+
+    <a
+      href="https://github.com/ParamiGunasekara"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-card"
+    >
+      <span className="contact-icon">⌘</span>
+      <span>GitHub</span>
+    </a>
+
+    <a
+      href="https://www.linkedin.com/in/hansikaparami"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-card"
+    >
+      <span className="contact-icon">in</span>
+      <span>LinkedIn</span>
+    </a>
+
+    <a
+      href="https://www.hackerrank.com/parami36"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-card"
+    >
+      <span className="contact-icon">{"</>"}</span>
+      <span>HackerRank</span>
+    </a>
+  </div>
+</section>
+
+{/* Footer */}
+<footer className="footer">
+  <p>
+    © {new Date().getFullYear()} Parami Gunasekara.
+    Built with React & TypeScript.
+  </p>
+</footer>
+
     </div>
   )
 }
